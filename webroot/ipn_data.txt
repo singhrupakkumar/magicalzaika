@@ -1,0 +1,45 @@
+Array
+(
+    [mc_gross] => 2.00
+    [protection_eligibility] => Eligible
+    [address_status] => confirmed
+    [payer_id] => T3KZABSDZ2BMJ
+    [address_street] => #1169 ground floor
+Sector 68
+    [payment_date] => 00:39:34 Oct 25, 2018 PDT
+    [payment_status] => Completed
+    [charset] => windows-1252
+    [address_zip] => 160062
+    [first_name] => Praveen
+    [mc_fee] => 2.00
+    [address_country_code] => IN
+    [address_name] => Praveen Kumar
+    [notify_version] => 3.9
+    [custom] => 6
+    [payer_status] => verified
+    [business] => magicalstoneweb@gmail.com
+    [address_country] => India
+    [address_city] => Mohali
+    [quantity] => 1
+    [verify_sign] => AGuF5DAjtosz1r6F6B5yC-DmkU9aAQbJmUuvNpQMU-.Y5LIOfXj5zeVd
+    [payer_email] => kumarparveen2007@gmail.com
+    [txn_id] => 02581422ES901063M
+    [payment_type] => instant
+    [last_name] => Kumar
+    [address_state] => Punjab
+    [receiver_email] => magicalstoneweb@gmail.com
+    [payment_fee] => 
+    [shipping_discount] => 0.00
+    [insurance_amount] => 0.00
+    [receiver_id] => Y88V2H9JXZASG
+    [txn_type] => web_accept
+    [item_name] => Just test
+    [discount] => 0.00
+    [mc_currency] => INR
+    [item_number] => 
+    [residence_country] => IN
+    [shipping_method] => Default
+    [transaction_subject] => 
+    [payment_gross] => 
+    [ipn_track_id] => fe4e0ac7acbe7
+)
