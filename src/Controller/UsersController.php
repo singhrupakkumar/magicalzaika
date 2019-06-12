@@ -448,8 +448,8 @@ public function forgot() {
        $email = $_POST['email'];
     if(!empty($email) && !filter_var($email, FILTER_VALIDATE_EMAIL) === false){
         // MailChimp API credentials
-        $apiKey = '3f019d94a3a753bda1627fb2ca6a58cc-us16';
-        $listID = '449c8ad99f';
+        $apiKey = 'your Api Key';
+        $listID = 'listID';
         
         // MailChimp API URL
         $memberID = md5(strtolower($email));
@@ -472,7 +472,7 @@ public function forgot() {
         curl_setopt($ch, CURLOPT_HTTPHEADER, ['Content-Type: application/json']);
         curl_setopt($ch, CURLOPT_RETURNTRANSFER, true);
         curl_setopt($ch, CURLOPT_TIMEOUT, 10);
-        curl_setopt($ch, CURLOPT_CUSTOMREQUEST, 'PUT');
+        curl_setopt($ch, CURLOPT_CUSTOMREQUEST, 'PUT'); 
         curl_setopt($ch, CURLOPT_SSL_VERIFYPEER, false);
         curl_setopt($ch, CURLOPT_POSTFIELDS, $json);
         $result = curl_exec($ch);
